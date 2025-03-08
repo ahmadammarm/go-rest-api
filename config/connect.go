@@ -2,12 +2,12 @@ package config
 
 import (
 	"fmt"
-	"log"
-	"os"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
 	"github.com/ahmadammarm/go-rest-api/internals/models"
 	"github.com/joho/godotenv"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
+	"log"
+	"os"
 )
 
 var DB *gorm.DB
